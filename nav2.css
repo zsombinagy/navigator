@@ -1,0 +1,31 @@
+/* Simple navigation */
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* General Style */
+nav a {
+  background: #eee;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Anton', Sans-serif;
+  text-decoration: none;
+  color: #DC143C;
+  display: block;
+}
+
+nav a:hover {
+  background: #fff;
+  transition: background-color .3s ease-in-out;
+  
+}
+
+.active {
+ background-color: #c74f78;
+ color: #eee; 
+}
